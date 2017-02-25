@@ -5,9 +5,9 @@
         provider-name="shanemeagher">
     <extension point="xbmc.addon.repository" 
         name="Shane Meagher's Add-ons">
-        <info compressed="false">https://github.com/shanemeagher/kodi-repo/x86_64/raw/master/addons.xml</info>
-        <checksum>https://github.com/shanemeagher/kodi-repo/x86_64/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/shanemeagher/kodi-repo/x86_64/raw/master/</datadir>
+        <info compressed="false">https://github.com/shanemeagher/kodi-repo/raw/master/x86_64/addons.xml</info>
+        <checksum>https://github.com/shanemeagher/kodi-repo/raw/master/x86_64/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/shanemeagher/kodi-repo/raw/master/x86_64/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Install x86_64 add-ons from Shane Meagher's add-on repository</summary>
