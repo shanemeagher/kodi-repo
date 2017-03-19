@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.librespot"
        name="Librespot"
-       version="8.1.1-alpha2"
+       version="8.1.1-alpha3"
        provider-name="Shane Meagher (shanemeagher)">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -21,6 +21,11 @@ Librespot (2017-02-22 - 6a0657fec6f887fda8276e5c70317dec887b90dd) plays Spotify 
     </disclaimer>
     <platform>all</platform>
     <news>
+8.1.1-alpha3
+- Fixed Issue #2 by specifying device for librespot to use.
+- Added wizard to detect and select audio playback device to use. Copied from Spotify Web Connect addon for LibreELEC by awiouy (https://github.com/LibreELEC/LibreELEC.tv/tree/master/packages/addons/service/spotify-connect-web)
+- Added Debug Options to setting.
+
 8.1.1-alpha2
 - Updated to latest librespot (2017-02-22)
 - Add RaspberryPi arm build support. Untested.
