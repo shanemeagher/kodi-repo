@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.shanemeagher"
+        name="Shane Meagher's Add-ons (armhf)"
+        version="1.0.1"
+        provider-name="shanemeagher">
+    <extension point="xbmc.addon.repository"
+        name="Shane Meagher's Add-ons">
+        <info compressed="false">https://github.com/shanemeagher/kodi-repo/raw/master/armhf/addons.xml</info>
+        <checksum>https://github.com/shanemeagher/kodi-repo/raw/master/armhf/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/shanemeagher/kodi-repo/raw/master/armhf/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install armhf (RPi 2/3, etc.) add-ons from Shane Meagher's add-on repository</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>linux</platform>
+    </extension>
+</addon>
+</addons>
