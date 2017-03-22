@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.shanemeagher"
+       name="Shane Meagher's Add-ons"
+       version="1.0.2"
+       provider-name="shanemeagher">
+    <requires>
+        <import addon="xbmc.addon"
+                version="16.0.0"/>
+    </requires>
+	<extension point="xbmc.addon.repository"
+		       name="Shane Meagher's Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/all/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/all/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/all/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Shane Meagher's Add-ons</summary>
+		<description>Install add-ons from Shane Meaghers add-on repository</description>
+		<disclaimer>Use these addons at your own risk.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="repository.shanemeagher.armhf"
+<addon id="repository.shanemeagher.armhf" 
        name="Shane Meagher's Add-ons (armhf)"
        version="1.0.0"
        provider-name="shanemeagher">
@@ -8,7 +7,7 @@
         <import addon="xbmc.addon"
                 version="16.0.0"/>
     </requires>
-    <extension point="xbmc.addon.repository"
+    <extension point="xbmc.addon.repository" 
                name="Shane Meagher's Add-ons">
         <info compressed="false">https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/armhf/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/armhf/addons.xml.md5</checksum>
@@ -21,4 +20,3 @@
         <platform>linux</platform>
     </extension>
 </addon>
-</addons>

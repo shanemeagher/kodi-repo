@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.shanemeagher.x86_64" 
+       name="Shane Meagher's Add-ons (x86_64)"
+       version="1.0.0"
+       provider-name="shanemeagher">
+    <requires>
+        <import addon="xbmc.addon"
+                version="16.0.0"/>
+    </requires>
+	<extension point="xbmc.addon.repository" 
+		       name="Shane Meagher's Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/x86_64/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/x86_64/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/shanemeagher/kodi-repo/master/x86_64/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Shane Meagher's Add-ons (x86_64)</summary>
+		<description>Install x86_64 add-ons from Shane Meaghers add-on repository</description>
+		<disclaimer>Use these addons at your own risk.</disclaimer>
+		<platform>linux</platform>
+	</extension>
+</addon>
