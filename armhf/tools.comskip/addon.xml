@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="tools.comskip"
+       name="Comskip"
+       version="8.1.2"
+       provider-name="Shane Meagher (shanemeagher)">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Comskip detects commercial breaks from a video stream. It can be used for post-processing recordings</summary>
+    <description>
+Comskip is a free video commercial detector. It is a console application that reads a video file and analyses the content based on a large amount of configurable parameters. After analysis it generates a file in various possible formats containing the location of the commercials inside the video file. Comskip can read MPEG and h.264 video, MPEG2, AC3 and AAC audio from PS , TS and dvr-ms files upto HD resolution (max 2000x1200) at 25fps (PAL) and 29.97fps (NTSC).
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+8.1.2
+- Fixes for building for RPi2 (untested)
+
+8.1.1
+- Updated to (git: adcc3f0 - 10/02/2017)
+
+8.1.0
+- Initial Release (git: 5d2202c- 04/10/2016)
+
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>

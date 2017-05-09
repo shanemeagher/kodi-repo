@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.librespot"
+       name="Librespot"
+       version="8.1.1-alpha4"
+       provider-name="Shane Meagher (shanemeagher)">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Librespot: use Spotify Connect through LibreELEC</summary>
+    <description>
+Librespot (2017-04-29 - 30bdcafb7eb7a6e5909f52d09324ae51944c8477) plays Spotify through LibreELEC using the opensource librespot library and, using a Spotify app as a remote.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+8.1.1-alpha4
+- Workaround for issue #1 which disables discovery and requires a username and password
+- Updated to latest librespot (2017-04-29)
+
+8.1.1-alpha3
+- Fixed Issue #2 by specifying device for librespot to use.
+- Added wizard to detect and select audio playback device to use. Copied from Spotify Web Connect addon for LibreELEC by awiouy (https://github.com/LibreELEC/LibreELEC.tv/tree/master/packages/addons/service/spotify-connect-web)
+- Added Debug Options to setting.
+
+8.1.1-alpha2
+- Updated to latest librespot (2017-02-22)
+- Add RaspberryPi arm build support. Untested.
+
+8.1.1-alpha1
+- Initial addon based on service.spotify-connect-web addon by Anton Voyl (awiouy)
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
